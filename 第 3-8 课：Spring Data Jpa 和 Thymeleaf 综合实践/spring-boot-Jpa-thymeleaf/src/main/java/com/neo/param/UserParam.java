@@ -9,13 +9,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
 import java.util.Date;
 
 public class UserParam {
     private long id;
-    @NotEmpty(message="姓名不能为空")
+    @NotBlank(message="姓名不能为空")
     private String userName;
-    @NotEmpty(message="密码不能为空")
+    @NotBlank(message="密码不能为空")
     @Length(min=6,message="密码长度不能小于6位")
     private String passWord;
     @Max(value = 100, message = "年龄不能大于100岁")

@@ -1,24 +1,14 @@
 package com.neo;
 
-import com.neo.config.MemcachedBuilder;
 import net.rubyeye.xmemcached.*;
-import net.rubyeye.xmemcached.command.BinaryCommandFactory;
-import net.rubyeye.xmemcached.exception.MemcachedException;
-import net.rubyeye.xmemcached.impl.KetamaMemcachedSessionLocator;
-import net.rubyeye.xmemcached.transcoders.SerializingTranscoder;
 import net.rubyeye.xmemcached.transcoders.StringTranscoder;
-import net.rubyeye.xmemcached.utils.AddrUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import javax.annotation.Resource;
-import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.util.Map;
-import java.util.concurrent.TimeoutException;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

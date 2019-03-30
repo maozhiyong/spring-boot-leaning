@@ -1,8 +1,5 @@
 package com.neo;
 
-import com.neo.scheduler.CronSchedulerJob;
-import org.quartz.SchedulerException;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -13,12 +10,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class SchedulerListener {  
       
-    @Autowired
-    public CronSchedulerJob scheduleJobs;
-      
-    @Scheduled(cron="0 30 11 25 11 ?")
-    public void schedule() throws SchedulerException {
-        scheduleJobs.scheduleJobs();
+//    @Scheduled(cron="0 30 11 25 11 ?")
+    @Scheduled(fixedDelay = 1000)
+    public void schedule() {
+        System.out.println("hhh");
      }   
       
 }

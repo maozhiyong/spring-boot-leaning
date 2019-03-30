@@ -1,9 +1,9 @@
 package com.neo.service;
 
-import com.mysql.cj.util.StringUtils;
 import com.neo.model.UserDetail;
 import com.neo.param.UserDetailParam;
 import com.neo.repository.UserDetailRepository;
+import org.h2.util.StringUtils;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

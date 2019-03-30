@@ -20,7 +20,7 @@ public class UserRepositoryTests {
 	private UserRepository userRepository;
 
 	@Test
-	public void testRepository() throws Exception {
+	public void testRepository() {
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG);        
 		String formattedDate = dateFormat.format(date);
@@ -28,7 +28,7 @@ public class UserRepositoryTests {
 		userRepository.save(new User("aa@126.com","neo",  "123456","neo", formattedDate));
 		userRepository.save(new User("bb@126.com","pure",  "bb123456","小张", formattedDate));
 		userRepository.save(new User("cc@126.com","smile",  "cc123456","小王" ,formattedDate));
-
+		System.out.println(userRepository.findByUserName("neo"));
 	}
 
 }

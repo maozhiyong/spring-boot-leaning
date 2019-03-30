@@ -18,12 +18,10 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
-import org.springframework.data.elasticsearch.core.ResultsExtractor;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.data.elasticsearch.core.query.SearchQuery;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.List;
 import java.util.Map;
 
 @RunWith(SpringRunner.class)
@@ -118,12 +116,7 @@ public class CustomerRepositoryTest {
                 .addAggregation(sumBuilder)
                 .build();
 
-        Aggregations aggregations = elasticsearchTemplate.query(searchQuery, new ResultsExtractor<Aggregations>() {
-            @Override
-            public Aggregations extract(SearchResponse response) {
-                return response.getAggregations();
-            }
-        });
+        Aggregations aggregations = elasticsearchTemplate.query(searchQuery, SearchResponse::getAggregations);
 
        //转换成map集合
         Map<String, Aggregation> aggregationMap = aggregations.asMap();

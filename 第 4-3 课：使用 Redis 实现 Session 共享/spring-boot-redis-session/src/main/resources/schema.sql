@@ -1,0 +1,1 @@
+create table user (id bigint not null, email varchar(255) not null, nickname varchar(255) not null, password varchar(255) not null, reg_time varchar(255) not null, user_name varchar(255) not null, primary key (id)) engine=InnoDB

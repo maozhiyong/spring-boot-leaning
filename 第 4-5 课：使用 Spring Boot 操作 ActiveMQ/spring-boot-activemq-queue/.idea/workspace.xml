@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7abad24-ac96-4874-8737-fd8d2ff3c7c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../第 2-3 课 模板引擎 Thymeleaf 基础使用/spring-boot-thymeleaf/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第 2-3 课 模板引擎 Thymeleaf 基础使用/spring-boot-thymeleaf/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第 2-3 课 模板引擎 Thymeleaf 基础使用/spring-boot-thymeleaf/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第 2-3 课 模板引擎 Thymeleaf 基础使用/spring-boot-thymeleaf/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第 2-3 课 模板引擎 Thymeleaf 基础使用/spring-boot-thymeleaf/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第 2-3 课 模板引擎 Thymeleaf 基础使用/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第 4-2 课：Spring Boot 和 Redis 常用操作/spring-boot-redis/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第 4-2 课：Spring Boot 和 Redis 常用操作/spring-boot-redis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第 4-3 课：使用 Redis 实现 Session 共享/spring-boot-redis-session/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 2-3 课 模板引擎 Thymeleaf 基础使用/spring-boot-thymeleaf/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 2-3 课 模板引擎 Thymeleaf 基础使用/spring-boot-thymeleaf/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 3-7 课： Spring Boot 集成 Druid 监控数据源/spring-boot-jpa-druid/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 3-7 课： Spring Boot 集成 Druid 监控数据源/spring-boot-jpa-druid/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 3-7 课： Spring Boot 集成 Druid 监控数据源/spring-boot-jpa-druid/src/main/java/com/neo/service/UserDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 3-7 课： Spring Boot 集成 Druid 监控数据源/spring-boot-jpa-druid/src/main/java/com/neo/service/UserDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 3-7 课： Spring Boot 集成 Druid 监控数据源/spring-boot-jpa-druid/src/main/java/com/neo/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 3-7 课： Spring Boot 集成 Druid 监控数据源/spring-boot-jpa-druid/src/main/java/com/neo/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 3-7 课： Spring Boot 集成 Druid 监控数据源/spring-boot-jpa-druid/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 3-7 课： Spring Boot 集成 Druid 监控数据源/spring-boot-jpa-druid/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 3-8 课：Spring Data Jpa 和 Thymeleaf 综合实践/spring-boot-Jpa-thymeleaf/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 3-8 课：Spring Data Jpa 和 Thymeleaf 综合实践/spring-boot-Jpa-thymeleaf/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 3-8 课：Spring Data Jpa 和 Thymeleaf 综合实践/spring-boot-Jpa-thymeleaf/src/main/java/com/neo/param/UserParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 3-8 课：Spring Data Jpa 和 Thymeleaf 综合实践/spring-boot-Jpa-thymeleaf/src/main/java/com/neo/param/UserParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 3-8 课：Spring Data Jpa 和 Thymeleaf 综合实践/spring-boot-Jpa-thymeleaf/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 3-8 课：Spring Data Jpa 和 Thymeleaf 综合实践/spring-boot-Jpa-thymeleaf/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 3-8 课：Spring Data Jpa 和 Thymeleaf 综合实践/spring-boot-Jpa-thymeleaf/src/main/resources/templates/user/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 3-8 课：Spring Data Jpa 和 Thymeleaf 综合实践/spring-boot-Jpa-thymeleaf/src/main/resources/templates/user/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 3-8 课：Spring Data Jpa 和 Thymeleaf 综合实践/spring-boot-Jpa-thymeleaf/src/main/resources/templates/user/userAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 3-8 课：Spring Data Jpa 和 Thymeleaf 综合实践/spring-boot-Jpa-thymeleaf/src/main/resources/templates/user/userAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 4-1 课：Spring Boot 操作 Memcache/spring-boot-memcache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 4-1 课：Spring Boot 操作 Memcache/spring-boot-memcache/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 4-1 课：Spring Boot 操作 Memcache/spring-boot-memcache/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 4-1 课：Spring Boot 操作 Memcache/spring-boot-memcache/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 4-1 课：Spring Boot 操作 Memcache/spring-boot-memcache/src/test/java/com/neo/MemcachedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 4-1 课：Spring Boot 操作 Memcache/spring-boot-memcache/src/test/java/com/neo/MemcachedTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 4-2 课：Spring Boot 和 Redis 常用操作/spring-boot-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 4-2 课：Spring Boot 和 Redis 常用操作/spring-boot-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 4-2 课：Spring Boot 和 Redis 常用操作/spring-boot-redis/src/main/java/com/neo/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 4-2 课：Spring Boot 和 Redis 常用操作/spring-boot-redis/src/main/java/com/neo/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 4-3 课：使用 Redis 实现 Session 共享/spring-boot-redis-session/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 4-3 课：使用 Redis 实现 Session 共享/spring-boot-redis-session/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 4-3 课：使用 Redis 实现 Session 共享/spring-boot-redis-session/src/main/java/com/neo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 4-3 课：使用 Redis 实现 Session 共享/spring-boot-redis-session/src/main/java/com/neo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 4-3 课：使用 Redis 实现 Session 共享/spring-boot-redis-session/src/main/java/com/neo/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 4-3 课：使用 Redis 实现 Session 共享/spring-boot-redis-session/src/main/java/com/neo/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 4-3 课：使用 Redis 实现 Session 共享/spring-boot-redis-session/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 4-3 课：使用 Redis 实现 Session 共享/spring-boot-redis-session/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 4-3 课：使用 Redis 实现 Session 共享/spring-boot-redis-session/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 4-3 课：使用 Redis 实现 Session 共享/spring-boot-redis-session/src/main/resources/update.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 4-3 课：使用 Redis 实现 Session 共享/spring-boot-redis-session/src/test/java/com/neo/model/UserRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 4-3 课：使用 Redis 实现 Session 共享/spring-boot-redis-session/src/test/java/com/neo/model/UserRepositoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 4-4 课：Spring Boot 中使用 Cache 缓存的使用/spring-boot-redis-data-cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 4-4 课：Spring Boot 中使用 Cache 缓存的使用/spring-boot-redis-data-cache/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 4-4 课：Spring Boot 中使用 Cache 缓存的使用/spring-boot-redis-data-cache/src/main/java/com/neo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 4-4 课：Spring Boot 中使用 Cache 缓存的使用/spring-boot-redis-data-cache/src/main/java/com/neo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 4-4 课：Spring Boot 中使用 Cache 缓存的使用/spring-boot-redis-data-cache/src/main/java/com/neo/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 4-4 课：Spring Boot 中使用 Cache 缓存的使用/spring-boot-redis-data-cache/src/main/java/com/neo/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第 4-4 课：Spring Boot 中使用 Cache 缓存的使用/spring-boot-redis-data-cache/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../第 4-4 课：Spring Boot 中使用 Cache 缓存的使用/spring-boot-redis-data-cache/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neo/consumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neo/consumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neo/consumer/Consumer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neo/consumer/Consumer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/neo/send/SampleActiveMqTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/neo/send/SampleActiveMqTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-activemq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-activemq/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-436404690">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="3" />
+          <entry key="java" value="12" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="12" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="111" />
+          <entry key="xml" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="111" />
+          <entry key="XML" value="14" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/neo/send/SampleActiveMqTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neo/consumer/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neo/consumer/Consumer2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Test queue message2</find>
+      <find>Test queue message1</find>
+      <find>Test queue message0</find>
+      <find>Consumer queue msg</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo/consumer/Consumer2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo/consumer/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/neo/send/SampleActiveMqTests.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../../../../repo/javaRepo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../env/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../../env/apache-maven-3.5.3/conf/settings_jd.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1714" />
+    <option name="y" value="53" />
+    <option name="width" value="1637" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-activemq-queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-activemq-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-activemq-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-activemq-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-activemq-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-activemq-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-activemq-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-activemq-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neo" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-activemq-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-activemq-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-activemq-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-activemq-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-activemq-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neo" type="462c0819:PsiDirectoryNode" />
+              <item name="send" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-jms:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-jms:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-jms-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-jms:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-jms-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-activemq-queue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-jms:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-jms-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jms" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553931556168" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SampleActiveMqTests.sendSimpleQueueMessage">
+    <configuration name="SampleActiveMqTests.sendSimpleQueueMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-activemq-queue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neo.send.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neo.send" />
+      <option name="MAIN_CLASS_NAME" value="com.neo.send.SampleActiveMqTests" />
+      <option name="METHOD_NAME" value="sendSimpleQueueMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActiveMQQueueApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-activemq-queue" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.neo.ActiveMQQueueApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ActiveMQQueueApplication" />
+      <item itemvalue="JUnit.SampleActiveMqTests.sendSimpleQueueMessage" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SampleActiveMqTests.sendSimpleQueueMessage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7abad24-ac96-4874-8737-fd8d2ff3c7c4" name="Default Changelist" comment="" />
+      <created>1553929848013</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553929848013</updated>
+      <workItem from="1553929851643" duration="1987000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SampleActiveMqTests_sendSimpleQueueMessage - 2019.03.30 at 15h 15m 43s.xml">
+      <configuration name="SampleActiveMqTests.sendSimpleQueueMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleActiveMqTests_sendSimpleQueueMessage - 2019.03.30 at 15h 17m 33s.xml">
+      <configuration name="SampleActiveMqTests.sendSimpleQueueMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleActiveMqTests_sendSimpleQueueMessage - 2019.03.30 at 15h 19m 51s.xml">
+      <configuration name="SampleActiveMqTests.sendSimpleQueueMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleActiveMqTests_sendSimpleQueueMessage - 2019.03.30 at 15h 20m 39s.xml">
+      <configuration name="SampleActiveMqTests.sendSimpleQueueMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleActiveMqTests_sendSimpleQueueMessage - 2019.03.30 at 15h 22m 12s.xml">
+      <configuration name="SampleActiveMqTests.sendSimpleQueueMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleActiveMqTests_sendSimpleQueueMessage - 2019.03.30 at 15h 27m 36s.xml">
+      <configuration name="SampleActiveMqTests.sendSimpleQueueMessage" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1987000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1714" y="53" width="1637" height="1027" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24952978" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Run with VisualVM" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Debug with VisualVM" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24561404" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo/config/MqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo/producer/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../repo/javaRepo/org/springframework/spring-jms/5.1.5.RELEASE/spring-jms-5.1.5.RELEASE.jar!/org/springframework/jms/annotation/JmsBootstrapConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../repo/javaRepo/org/springframework/spring-jms/5.1.5.RELEASE/spring-jms-5.1.5.RELEASE.jar!/org/springframework/jms/annotation/JmsListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo/consumer/Consumer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo/consumer/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/neo/send/SampleActiveMqTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

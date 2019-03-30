@@ -23,8 +23,10 @@ public class SampleActiveMqTests {
 
 	@Test
 	public void sendSimpleQueueMessage() throws InterruptedException {
-		this.producer.sendQueue("Test queue message");
-		Thread.sleep(1000L);
+		for (int i = 0; i < 50; i++) {
+			this.producer.sendQueue("Test queue message" + i);
+			Thread.sleep(2000L);
+		}
 		assertThat(this.outputCapture.toString().contains("Test queue")).isTrue();
 	}
 

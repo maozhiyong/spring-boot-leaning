@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Random;
+import java.util.UUID;
 
 @RestController
 public class UserController {
@@ -22,6 +24,17 @@ public class UserController {
 		return users;
 	}
 
+	@RequestMapping("/addUser")
+	public void addUser() {
+        String string = UUID.randomUUID().toString();
+        User user = new User();
+		user.setId((long)new Random().nextInt(100));
+		user.setUserName("max" + string);
+		user.setEmail("max@qq.com" + string);
+		user.setNickName("nick" + string);
+		user.setRegTime("go");
+		user.setPassWord("**");
+		userRepository.save(user);
+	}
 
-    
 }

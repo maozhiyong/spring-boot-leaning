@@ -10,10 +10,8 @@ import java.util.List;
 
 
 public interface CustomerRepository extends ElasticsearchRepository<Customer, String> {
-	public List<Customer> findByAddress(String address);
-	public Customer findByUserName(String userName);
-	public int  deleteByUserName(String userName);
-	public Page<Customer> findByAddress(String address, Pageable pageable);
-
-
+	 List<Customer> findByAddress(String address);
+	 Customer findByUserName(String userName);
+	 int  deleteByUserName(String userName);
+	 Page<Customer> findByAddress(String address, Pageable pageable);
 }
